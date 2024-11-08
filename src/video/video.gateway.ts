@@ -9,6 +9,7 @@ import { Server, Socket } from 'socket.io';
 @WebSocketGateway({
   transports: ['websocket', 'polling'],
   wssEngine: ['ws', 'wss'],
+  path: '/socket',
   cors: {
     origin: '*',
   },
