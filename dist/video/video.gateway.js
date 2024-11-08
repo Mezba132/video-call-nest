@@ -178,7 +178,6 @@ exports.VideoGateway = VideoGateway = __decorate([
     (0, websockets_1.WebSocketGateway)({
         transports: ['websocket', 'polling'],
         wssEngine: ['ws', 'wss'],
-        path: '/',
         cors: {
             origin: '*',
         },
