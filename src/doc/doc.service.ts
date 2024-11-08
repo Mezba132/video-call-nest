@@ -5,6 +5,7 @@ import { UpdateDocDto } from './dto/update-doc.dto';
 @Injectable()
 export class DocService {
   create(createDocDto: CreateDocDto) {
+    console.log('asdasd');
     return 'This action adds a new doc';
   }
 
